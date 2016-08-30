@@ -1,16 +1,8 @@
+# -*- coding: utf-8 -*-
 
-import sys
+# Form implementation generated from reading ui file 'GUI.py'
+#
+# Created by: PyQt5 UI code generator 5.4.1
+#
+# WARNING! All changes made in this file will be lost!
 
-from PyQt5 import QtWidgets, QtCore
-
-app = QtWidgets.QApplication(sys.argv)
-
-widget = QtWidgets.QWidget()
-
-widget.resize(360, 360)
-
-widget.setWindowTitle("政策性粮传输系统配置帮助")
-
-widget.show()
-
-sys.exit(app.exec_())
